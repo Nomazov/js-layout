@@ -33,6 +33,71 @@
     gap: 12px;
 }
 
+.tabs {
+    display: flex;
+    align-content: stretch;
+}
+
+.tab {
+    width: 100%;
+    color: #888888;
+    border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 12px;
+    cursor: pointer;
+    transition: 0.7s;
+
+    &:hover {
+        opacity: 0.7;
+    }
+
+    &--active {
+        color: #121212;
+        border-color: #121212;
+    }
+}
+
+.info {
+    display: grid;
+    gap: 16px;
+
+    &__title {
+        font-size: 18px;
+        color: #121212;
+        font-weight: bold;
+    }
+
+    &__text {
+        font-size: 14px;
+        color: #363636;
+        line-height: 20px;
+    }
+
+    &__action {
+        background-color: #F46F17;
+        padding: 16px;
+        font-size: 14px;
+        color: #fff;
+        border-radius: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .post {
     padding: 12px;
     border-radius: 10px;
